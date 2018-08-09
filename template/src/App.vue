@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="app">
     <div class="tips-resize" v-show="resizeTips">
       <img src="./assets/images/tips-resize.png" alt="">
       <p>为了更好的体验，请使用竖屏观看</p>

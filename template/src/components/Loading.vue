@@ -5,8 +5,8 @@
 </template>
 
 <script>
-  import Imgpreload from "../libs/imgpreload"
-  import Assets from "../assets/preloadassets"
+  import Imgpreload from "../assets/libs/imgpreload"
+  import Assets from "../assets/preloadAssets"
 
   export default {
     name: "Loading",

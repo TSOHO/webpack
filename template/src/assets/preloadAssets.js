@@ -1,3 +1,3 @@
-export default preloadassets[
+export default [
   require("./images/tips-resize.png")
 ]

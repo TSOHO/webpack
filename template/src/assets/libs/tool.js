@@ -1,3 +1,25 @@
+export const isWeixin = (() => {
+  return navigator.userAgent.indexOf('MicroMessenger') > -1
+})()
+
+export const isWeibo = (() => {
+  return navigator.userAgent.indexOf('Weibo') > -1
+})()
+
+export const sleep = time => {
+  return new Promise(resolve => {
+    setTimeout(resolve, time)
+  })
+}
+
+export const isDD = (() => {
+  return navigator.userAgent.indexOf('DingTalk') > -1
+})()
+
+export const isMobile = (() => {
+  return /(iPhone|iPad|iPod|iOS|Android)/i.test(navigator.userAgent)
+})()
+
 /**
  * [getParam 获取url参数]
  * @param  {[string]} name [参数名称]
