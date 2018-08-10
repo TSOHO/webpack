@@ -15,8 +15,8 @@
 
 <script>
 {{#unless router}}
-import Loading from "./components/Loading"
-import Index from './components/Index'
+import Loading from "./views/Loading"
+import Index from './views/Index'
 import axios from "axios";
 import {
     isWeixin
