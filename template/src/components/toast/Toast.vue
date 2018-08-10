@@ -2,7 +2,7 @@
   <div :class="['toast-wrapper',className]" v-if="show">
     <div class="toast-content">
       <i class="toast-loading" v-if="loading"></i>
-      <p class="toast-text">{{text}}</p>
+      <p class="toast-text">\{{text}}</p>
     </div>
   </div>
 </template>

@@ -1,6 +1,6 @@
 <template>
   <div class="screenfull">
-    <h1 v-if="fade.text">{{text}}</h1>
+    <h1 v-if="fade.text">\{{text}}</h1>
   </div>
 </template>
 
