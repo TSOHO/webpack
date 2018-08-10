@@ -20,7 +20,7 @@ import Index from './views/Index'
 import axios from "axios";
 import {
     isWeixin
-  } from "./libs/tool.js";
+  } from "./assets/libs/tool.js";
 
 {{/unless}}
 export default {
